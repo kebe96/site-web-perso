@@ -5,7 +5,7 @@ version: 0.2
 phrases:
   install:
     runtime-versions:
-      nodejs: 14
+      nodejs: 16
 
     commands:
       - npm install
@@ -16,5 +16,5 @@ artifacts:
   files:
     - '**/*'
   base-directory: 'build'
-```
+
     
